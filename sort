@@ -1,0 +1,6 @@
+let array =[23,45,32,5,87,7,3,98]
+
+let minvalue = array.sort((x, y) => y - x)[array.length-1];
+
+
+console.log(minvalue);
